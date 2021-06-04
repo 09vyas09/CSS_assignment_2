@@ -1,0 +1,50 @@
+.number{
+  background-clip: border-box;  
+width: 30px;
+height: 30px;
+    background-color: #EEB500;
+    color: white;
+text-align: center;
+color
+}
+
+.heading{
+    color: #0A5A78;
+    text-align: left;
+      width: 95%;
+
+}
+.subs{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.paragraph{
+    color: #4C4C4C;
+    height: 100px;
+    column-gap: 10px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+}
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+  /* table{
+      text-align: left;
+      width: 100%;
+  } */
